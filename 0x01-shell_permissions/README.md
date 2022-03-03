@@ -3,3 +3,5 @@
 Use `whoami` to write script that prints the effective username of the current user
 
 Use `groups` to write a script that prints all groups the current user is part of
+
+Use `chown betty` to write a script that changes the owner of the file hello to the user betty
