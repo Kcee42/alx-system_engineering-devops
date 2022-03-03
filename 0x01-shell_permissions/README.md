@@ -25,3 +25,5 @@ Use `chmod --reference=olleh hello` to write a script that sets the mode of the 
 Use `chmod a+X *` to create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 
 Use `mkdir -m 751 my_dir` to create a script that creates a directory called my_dir with permissions 751 in the working directory
+
+Use `chgrp school hello` to write a script that changes the group owner to school for the file hello
