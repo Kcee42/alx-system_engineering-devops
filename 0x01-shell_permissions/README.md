@@ -13,3 +13,5 @@ Use `chmod u+x hello` to write a script that adds execute permission to the owne
 Use `chmod ug+x,o+r hello` to write a script that adds execute permission to the owner and the group owner and read permission to other user, to the hello
 
 Use `chmod a+x hello` to write a script that adds execution permission to the owner, the group owner and the users, to the file hello
+
+Use `chmod 007 hello` to write a script that sets the permission to the file hello as Owner, Group and Other user
