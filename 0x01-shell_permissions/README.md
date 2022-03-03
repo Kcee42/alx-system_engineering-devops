@@ -21,3 +21,5 @@ Use `chmod 753 hello` to write a script that sets the mode of the file hello to 
 Use `chmod --reference=olleh hello` to write a script that sets the mode of the file hello the same as olleh's mode
 
 Use `chmod --reference=olleh hello` to write a script that sets the mode of the file hello the same as olleh's mode
+
+Use `chmod a+X *` to create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
