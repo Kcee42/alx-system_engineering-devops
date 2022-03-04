@@ -31,3 +31,5 @@ Use `chgrp school hello` to write a script that changes the group owner to schoo
 Use `chown -R vincent:staff ./` to write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 
 Use `chown -h vincent:staff -hello` to write a srcipt that changes the owner and the group ownerof hello to vincent and staff respectively.
+
+Use `chown --from=guillaume betty hello` to write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume
