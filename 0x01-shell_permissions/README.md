@@ -33,3 +33,7 @@ Use `chown -R vincent:staff ./` to write a script that changes the owner to vinc
 Use `chown -h vincent:staff -hello` to write a srcipt that changes the owner and the group ownerof hello to vincent and staff respectively.
 
 Use `chown --from=guillaume betty hello` to write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume
+
+Use `telnet towel.blinkenlights.nl` to write a script that will play the starWars IV episode in the terminal
+
+Use `telnet towel.blinkenlights.nl` to write a script that will play the StarWar IV episode in the terminal
