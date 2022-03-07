@@ -9,3 +9,5 @@ Use `tail /etc/passwd` to display the last 10 lines of /etc/passwd
 Use `head /etc/passwd` to display the first 10 lines of /etc/passwd
 
 Use `head -3 iacta | tail -1` to write a script that displays the third line of the file iacta
+
+Use `"Best School"` > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'` to write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
