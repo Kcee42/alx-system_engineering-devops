@@ -18,4 +18,4 @@ Use `tail -1 iacta >> iacta` to write a script that duplicates the last line of 
 
 Use `find . -name '*.js' -type f -delete
 
-Use `find ./* -type d -print | wc -1` to write a script that counts the number of directories and sub-directories in the current directory
+Use `find . -tpye d -not -name '.' | wc -1` to write a script that counts the number of directories and sub-directories in the current directory
