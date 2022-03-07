@@ -17,3 +17,5 @@ Use `ls -la > ls_cwd_content` to write a script that writes into the file ls_cwd
 Use `tail -1 iacta >> iacta` to write a script that duplicates the last line of the file iacta
 
 Use `find . -name '*.js' -type f -delete
+
+Use `find ./* -type d -print | wc -1` to write a script that counts the number of directories and sub-directories in the current directory
