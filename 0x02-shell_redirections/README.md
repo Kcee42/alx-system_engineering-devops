@@ -29,3 +29,5 @@ Use `grep "root" /etc/passwd` to display lines containing the pattern "root" fro
 Use `grep bin /etc/passwd | wc -l` to display the number of lines that contains the pattern bin the/etc/passwd
 
 Use `grep -A 3 root /etc/passwd` to display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
+
+Use `grep -v bin /etc/passwd` to display all the lines in the file /etc/passwd that do not contain the pattern bin
