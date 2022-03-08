@@ -27,3 +27,5 @@ Use `sort | uniq -u` to create a script that takes a list of words as input and 
 Use `grep "root" /etc/passwd` to display lines containing the pattern "root" from the file /etc/passwd
 
 Use `grep bin /etc/passwd | wc -l` to display the number of lines that contains the pattern bin the/etc/passwd
+
+Use `grep -A 3 root /etc/passwd` to display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
