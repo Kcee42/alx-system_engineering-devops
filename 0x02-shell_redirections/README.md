@@ -37,3 +37,5 @@ Use `grep -i ^[a-z] /etc/ssh/sshd_config` to display all lines of the file /etc/
 Use `tr "AC" "Ze" to replace all characters A and c from input to Z and e respectively.
 
 Use `tr -d [cC] to create a script that removes all letters c and C from input
+
+Use `rev` to write a script that reverse its iput.
