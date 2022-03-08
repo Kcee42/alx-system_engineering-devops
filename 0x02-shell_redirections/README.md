@@ -42,4 +42,6 @@ Use `rev` to write a script that reverse its iput.
 
 Use `cut -d":" -f 1,6 /etc/passwd | sort` to write a script that displays all users and their home directories, sorted by users
 
-Use `find . -emptyu -printf "%f\n"` to write a command that finds all empty files and directories in the current directory and all sub-directories 
+Use `find . -emptyu -printf "%f\n"` to write a command that finds all empty files and directories in the current directory and all sub-directories
+
+Use `find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL= sort -f` to write a script that lists all the files with a .gif extention in the current directory and all its sub-directories 
