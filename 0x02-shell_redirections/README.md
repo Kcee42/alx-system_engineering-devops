@@ -44,4 +44,6 @@ Use `cut -d":" -f 1,6 /etc/passwd | sort` to write a script that displays all us
 
 Use `find . -emptyu -printf "%f\n"` to write a command that finds all empty files and directories in the current directory and all sub-directories
 
-Use `find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL= sort -f` to write a script that lists all the files with a .gif extention in the current directory and all its sub-directories 
+Use `find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL= sort -f` to write a script that lists all the files with a .gif extention in the current directory and all its sub-directories
+
+Use `cut -c 1 | paste -s -d ''` to create a script that decodes the acrostics that use the first letter of each line 
