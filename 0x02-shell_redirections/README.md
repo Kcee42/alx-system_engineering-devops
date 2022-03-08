@@ -21,3 +21,5 @@ Use `find . -name '*.js' -type f -delete
 Use `find . -tpye d -not -name '.' | wc -1` to write a script that counts the number of directories and sub-directories in the current directory
 
 Use `ls -t | head` to create a script that displays the 10 newest files in the curent directory
+
+Use `sort | uniq -u` to create a script that takes a list of words as input and prints only words that appear exactly once
