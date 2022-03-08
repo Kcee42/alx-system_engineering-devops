@@ -46,4 +46,6 @@ Use `find . -emptyu -printf "%f\n"` to write a command that finds all empty file
 
 Use `find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL= sort -f` to write a script that lists all the files with a .gif extention in the current directory and all its sub-directories
 
-Use `cut -c 1 | paste -s -d ''` to create a script that decodes the acrostics that use the first letter of each line 
+Use `cut -c 1 | paste -s -d ''` to create a script that decodes the acrostics that use the first letter of each line
+
+Use `tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev 
