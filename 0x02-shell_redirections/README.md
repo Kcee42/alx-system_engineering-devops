@@ -39,3 +39,5 @@ Use `tr "AC" "Ze" to replace all characters A and c from input to Z and e respec
 Use `tr -d [cC] to create a script that removes all letters c and C from input
 
 Use `rev` to write a script that reverse its iput.
+
+Use `cut -d":" -f 1,6 /etc/passwd | sort` to write a script that displays all users and their home directories, sorted by users
