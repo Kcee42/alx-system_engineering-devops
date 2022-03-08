@@ -23,3 +23,5 @@ Use `find . -tpye d -not -name '.' | wc -1` to write a script that counts the nu
 Use `ls -t | head` to create a script that displays the 10 newest files in the curent directory
 
 Use `sort | uniq -u` to create a script that takes a list of words as input and prints only words that appear exactly once
+
+Use `grep "root" /etc/passwd` to display lines containing the pattern "root" from the file /etc/passwd
