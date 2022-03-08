@@ -33,3 +33,5 @@ Use `grep -A 3 root /etc/passwd` to display lines containing the pattern "root" 
 Use `grep -v bin /etc/passwd` to display all the lines in the file /etc/passwd that do not contain the pattern bin
 
 Use `grep -i ^[a-z] /etc/ssh/sshd_config` to display all lines of the file /etc/ssh/sshd_config starting with a letter
+
+Use `tr "AC" "Ze" to replace all characters A and c from input to Z and e respectively.
