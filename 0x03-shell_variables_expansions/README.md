@@ -11,3 +11,5 @@ Use `echo $((echo $PATH | grep -o ":/" | wc -I+ 1` to create a script that count
 Use `printenv` to a script that lists environment variables
 
 Use `set` to create a script that lists all vocal variables and environment, andfunction
+
+Use `BEST="School"` to create a script that creates a new local variable
