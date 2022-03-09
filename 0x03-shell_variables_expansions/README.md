@@ -34,4 +34,5 @@ Use `tr echo {a..z} | tr -d '' echo {n..z} $(echo {a..m}) | tr -d '' | tr echo {
 
 Use `perl -lne 'print if $. % 2 == 1` to write a script that prints every other line from the input, starting with the first line.
 
-Use `printf "%o\n" $(($((5#$(echo $WATER | tr water 01234))) + $ ((5#$(echo $STIR | tr stir. 01234))))) | tr 01234567 bestchol` to write a shell script that adds the two numbers stored in the environment variables WATER and STIR and print the result
+Use `printf "%o\n" $(($((5#$(echo  $WATER | tr water 01234))) + $ ((5#$(echo $STIR | tr stir. 
+01234))))) | tr 01234567 bestchol` to write a shell script that adds the two numbers stored in the environment variables WATER and STIR and print the result
