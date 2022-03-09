@@ -7,3 +7,5 @@ Use `export PATH=$PATH:/action` to Add /action to the PATH. /action should be th
 Use `echo $((echo $PATH | grep -o ":/" | wc -I+ 1` to create a script that counts the number of directoriesin the PATH.
 
 Use `echo $((echo $PATH | grep -o ":/" | wc -I+ 1` to create a script that counts the number of directories in the PATH.
+
+Use `printenv` to a script that lists environment variables
