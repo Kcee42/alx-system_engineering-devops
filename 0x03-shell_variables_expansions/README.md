@@ -17,3 +17,5 @@ Use `BEST="School"` to create a script that creates a new local variable
 Use `export BEST="School"` to create a script that creates a new global variable
 
 Use `echo$(($TRUEKNOWLEDGE + 128))` to write a script that prints the result of the addition of 128 with the value stored in the environment variable KNOWLEDGE, followed by a new line
+
+Use `echo $((POWER/DIVIDE))` to write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
