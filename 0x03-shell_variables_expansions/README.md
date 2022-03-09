@@ -25,3 +25,5 @@ Use `echo $(($BREATH**$LOVE))` to write a script that displays the result of BRE
 Use `echo $((2#$BINARY))` to write a script that converts a number from base 2 to base 10
 
 Use `echo {a..z}{a..} | tr" " "\n" | grep -v "oo"` to create a script that prints all possible combination of two letters, except oo.
+
+Use `printf "%.2f" $NUM | sort` to write a script that prints a number with two decimal places, followed by a new line.
