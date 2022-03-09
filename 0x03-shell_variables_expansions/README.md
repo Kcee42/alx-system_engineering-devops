@@ -21,3 +21,5 @@ Use `echo$(($TRUEKNOWLEDGE + 128))` to write a script that prints the result of 
 Use `echo $((POWER/DIVIDE))` to write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
 Use `echo $(($BREATH**$LOVE))` to write a script that displays the result of BREATH to the power LOVE
+
+Use `echo $((2#$BINARY))` to write a script that converts a number from base 2 to base 10
