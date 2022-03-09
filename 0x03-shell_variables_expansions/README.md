@@ -13,3 +13,5 @@ Use `printenv` to a script that lists environment variables
 Use `set` to create a script that lists all vocal variables and environment, andfunction
 
 Use `BEST="School"` to create a script that creates a new local variable
+
+Use `export BEST="School"` to create a script that creates a new global variable
