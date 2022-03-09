@@ -27,3 +27,5 @@ Use `echo $((2#$BINARY))` to write a script that converts a number from base 2 t
 Use `echo {a..z}{a..} | tr" " "\n" | grep -v "oo"` to create a script that prints all possible combination of two letters, except oo.
 
 Use `printf "%.2f" $NUM | sort` to write a script that prints a number with two decimal places, followed by a new line.
+
+Use `printf '%\n' $DECIMAL` to write a script that converts a number from base 10 to base 16
